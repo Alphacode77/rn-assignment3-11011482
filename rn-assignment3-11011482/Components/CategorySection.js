@@ -4,11 +4,11 @@ const categories = [
   { key: 1, name: "Exercise" },
   { key: 2, name: "Study" },
   { key: 3, name: "Programming" },
-  { key: 4, name: "Rest" },
+  { key: 4, name: "Code" },
   { key: 5, name: "Aerobics" },
   { key: 6, name: "Assignment" },
   { key: 7, name: "Engineering" },
-  { key: 8, name: "Testing" },
+  { key: 8, name: "Cook" },
 ];
 
 const renderCategories = ({ item }) => {
