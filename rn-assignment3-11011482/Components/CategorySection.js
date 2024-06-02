@@ -1,16 +1,13 @@
 import { View, Text, StyleSheet, Image, FlatList } from "react-native";
 
 const categories = [
-  { key: 1, name: "Exercise" },
-  { key: 2, name: "Study" },
-  { key: 3, name: "Programming" },
-  { key: 4, name: "Code" },
-  { key: 5, name: "Aerobics" },
-  { key: 6, name: "Assignment" },
-  { key: 7, name: "Engineering" },
-  { key: 8, name: "Cook" },
+  { key: 1, name: "Exercise", image: require("../assets/Exercise.png") },
+  { key: 2, name: "Study", image: require("../assets/img1.png") },
+  { key: 3, name: "Programming", image: require("../assets/Programming.png") },
+  { key: 4, name: "Code", image: require("../assets/code.png") },
+  { key: 5, name: "Aerobics", image: require("../assets/Aerobics.png") },
+  { key: 6, name: "Assignment", image: require("../assets/Assignment.png") },
 ];
-
 const renderCategories = ({ item }) => {
   return (
     <View style={styles.itemContainer}>
@@ -18,7 +15,7 @@ const renderCategories = ({ item }) => {
       <Text>12 Tasks</Text>
       <View style={styles.img}>
         <Image
-          source={require("../assets/img1.png")}
+          source={item.image}
           style={styles.imgStyle}
           resizeMode="contain"
         />

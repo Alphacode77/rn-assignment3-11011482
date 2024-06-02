@@ -21,4 +21,4 @@
 ## SCREENSHOT
 
 ![image](./rn-assignment3-11011482/Screenshot%202024-06-02%20183245.png)
-![image](./rn-assignment3-11011482/WhatsApp%20Image%202024-06-02%20at%2018.42.10_3fee0c2e.jpg)
+![image](./rn-assignment3-11011482/Screenshot.jpg)
