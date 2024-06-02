@@ -7,6 +7,8 @@ const categories = [
   { key: 4, name: "Code", image: require("../assets/code.png") },
   { key: 5, name: "Aerobics", image: require("../assets/Aerobics.png") },
   { key: 6, name: "Assignment", image: require("../assets/Assignment.png") },
+  { key: 7, name: "Engineering", image: require("../assets/Engineering.png") },
+  { key: 8, name: "Cook", image: require("../assets/Cook.png") },
 ];
 const renderCategories = ({ item }) => {
   return (
